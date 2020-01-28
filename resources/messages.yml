@@ -6,20 +6,20 @@ cfgversion: 1.3
 # MESSAGES
 #change the messages sent in this plugin
 
-reload: "&e&lNotice: &r&7reloaded SellAll"
+reload: "&3Reloaded &cSell-All moded by xAndrei52"
 
-error.permission: "&c&lError: &r&7you don't have permission to execute this command"
+error.permission: "&7[&l&6!!&r&7] &bSorry, but you don't have permission to use that."
 
-error.not-found: "&c&lError: &r&7you can't sell this item"
+error.not-found: "&e&lNOTE: &r&cItem cannot be found in sell list."
 
-error.argument: "&c&lUsage: &r&7/sell &7{ARGS}"
+error.argument: "&aInvalid usage! &cPlease use: &r&7/sell &7{ARGS}"
 separator: "&8|&7"
 #the above value tells the plugin how to seperate the arguments in {ARGS}
 
 #use the variables:{AMOUNT}, {ITEMNAME} and {MONEY} and they will get replaced by their value.
-success.sell: "&a&lSuccess! &r&7sold &8{AMOUNT} {ITEMNAME} &7for &8${MONEY}"
+success.sell: "&7[&2Sell&7] &d&lYOU Sold: &r&9sold &2{AMOUNT} {ITEMNAME} &9for &a${MONEY}"
 
 #the message when someone executes "/sell inventory"
-success.sell.inventory: "&a&lSuccess! &r&7sold your whole inventory for §8${MONEY}"
+success.sell.inventory: "&7[&2Sell&7] &l&dProcess sucessfull! &r&6sold your whole inventory for amount of money of: &a${MONEY}"
 
-error.no.sellables: "&c&lError: &r&7there's nothing in your inventory that you can sell"
+error.no.sellables: "&c&lError: &d[Server] &cThere is nothing in your inventory to sell."
