@@ -1,4 +1,4 @@
-name: SellSystemXAndrei52
+name: ChangableSell
 main: AndreasHGK\SellAll\SellAll
 version: 1.3.0
 api: 3.0.0
@@ -9,6 +9,7 @@ depend: ["EconomyAPI"]
 
 commands:
  sell:
+  aliases: [changablesell]
   description: "Sell command"
   usage: "/sell all|hand|inventory"
   permission: sellall.command
