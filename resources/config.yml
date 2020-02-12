@@ -9,8 +9,8 @@ cfgversion: 1.3
 #if you don't want to use this feature just remove all groups
 groups:
   ores:
-    success: "&eSold all your ores for &aamount of §2${MONEY} $"
-    failed: "&c&lALERT: &bYou do not have any ores in your inventory to sell. Try again when you have required items."
+    success: "&l&bSold all your ores from &cyour inventory for &2${MONEY}"
+    failed: "&7You do not have any ores in your inventory to sell. Try again when you have required items."
     items:
       - 14
       - 15
