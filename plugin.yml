@@ -9,7 +9,7 @@ depend: ["EconomyAPI"]
 
 commands:
  sell:
-  aliases: [changablesell, cs]
+  aliases: [changablesell, cs, chs, cse]
   description: "Sell command"
   usage: "/sell all|hand|inventory"
   permission: sellall.command
