@@ -10,16 +10,16 @@ reload: "&3Reloaded &cSell-All moded by xAndrei52"
 
 error.permission: "&7[&l&6!!&r&7] &bSorry, but you don't have permission to use that."
 
-error.not-found: "&5Item cannot be found in sell list."
+error.not-found: "&6[Server] &3You must sell a item that is in sell list."
 
-error.argument: "&cInvalid usage! &4Please use: &r&9/sell &7{ARGS}"
-separator: "&6|&b"
+error.argument: "&d[Server] &fPlease use these commands to run &cChangableSell: &f{ARGS}"
+separator: "&a|&a"
 #the above value tells the plugin how to seperate the arguments in {ARGS}
 
 #use the variables:{AMOUNT}, {ITEMNAME} and {MONEY} and they will get replaced by their value.
-success.sell: "&7[&2Sell&7] &eSold: &2{AMOUNT} &a{ITEMNAME} &2for &a${MONEY}"
+success.sell: "&d[Server] &eSold: &2{AMOUNT} &a{ITEMNAME} &2for &a${MONEY}"
 
 #the message when someone executes "/sell inventory"
-success.sell.inventory: "&7[&2Sell&7] &l&dProcess sucessfull! &r&6sold your whole inventory for amount of money of: &a${MONEY}"
+success.sell.inventory: "&d[Server] &l&eProcess sucessfull! &r&6sold your whole inventory for amount of money of: &a${MONEY}"
 
-error.no.sellables: "&c&lError: &d[Server] &cThere is nothing in your inventory to sell."
+error.no.sellables: "&d[Server] &7There is nothing in your inventory to sell."
